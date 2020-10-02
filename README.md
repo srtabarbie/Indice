@@ -14,14 +14,17 @@
 
 <a name= "item1"></a>
 ## Introducción
+
 En este documento se pretende dar a conocer información importante sobre el patrón de diseño MVC, historia, sus principales características, ventajas, y frameworks con los que trabaja y los que son sus competidores haciendo un breve comparativo entre los diferentes patrones de diseño y finalmente llegaremos a la conclusión.
 
 ------------
 
 <a name= "item2"></a>
 ## Marco Teórico
+
 <a name= "item3"></a>
 ###### MVC (Model-View-Controller)
+
 MVC se usa inicialmente en sistemas donde se requiere el uso de interfaces de usuario, aunque en la práctica el mismo patrón de arquitectura se puede utilizar para distintos tipos de aplicaciones debido a que  MVC no es un concepto nuevo, ya que el patrón fue descrito en el año 1979 por Trygve Reenskaug.
 Es una propuesta de arquitectura del software utilizada para separar el código por sus distintas responsabilidades, manteniendo distintas capas o grupos de componentes en los que organiza las aplicaciones bajo este paradigma que se encargan de hacer una tarea muy concreta, lo que ofrece beneficios diversos para mantener una estructura organizada, limpia y con un acoplamiento mínimo entre las distintas capas.
 
@@ -40,10 +43,12 @@ Es una propuesta de arquitectura del software utilizada para separar el código 
 
 <a name= "item4"></a>
 ###### Frameworks que utiliza el modelo MVC
+
 <a name= "item5"></a>
 •	[Apache Struts](https://struts.apache.org/index.html) 
 
 Apache Struts es un marco MVC gratuito y de código abierto para crear aplicaciones web Java elegantes y modernas. Favorece la convención sobre la configuración, es extensible mediante una arquitectura de complementos y se envía con complementos para admitir REST, AJAX y JSON.
+
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Struts-logo.svg/1200px-Struts-logo.svg.png)
 
 ------------
@@ -94,12 +99,14 @@ Go to http://localhost:3000 and you'll see: “Yay! You're on Rails!”
 
 <a name= "item7"></a>
 •	[Django](https://www.djangoproject.com/)
+
 Django es un marco web Python de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático, esta constituido por las siguientes capaz.
-**La capa del modelo ** Django proporciona una capa de abstracción (los "modelos") para estructurar y manipular los datos de su aplicación web.
 
-**La capa de vista ** Django tiene el concepto de "vistas" para encapsular la lógica responsable de procesar la solicitud de un usuario y devolver la respuesta
+**La capa del modelo** Django proporciona una capa de abstracción (los "modelos") para estructurar y manipular los datos de su aplicación web.
 
-** La capa de plantilla ** Proporciona una sintaxis fácil de diseñar para representar la información que se presentará al usuario.
+**La capa de vista** Django tiene el concepto de "vistas" para encapsular la lógica responsable de procesar la solicitud de un usuario y devolver la respuesta
+
+**La capa de plantilla** Proporciona una sintaxis fácil de diseñar para representar la información que se presentará al usuario.
 
 **Formularios** Django proporciona un marco rico para facilitar la creación de formularios y la manipulación de datos de formularios.
 
@@ -107,10 +114,12 @@ La seguridad es un tema de suma importancia en el desarrollo de aplicaciones web
 Rendimiento y optimización 
 Existe una variedad de técnicas y herramientas que pueden ayudarlo a que su código se ejecute de manera más eficiente, más rápido y con menos recursos del sistema.
 
-**Guía de instalación rápida **
+**Guía de instalación rápida**
+
 Antes de que pueda usar Django, deberá instalarlo. Contamos con una completa guía de instalación que cubre todas las posibilidades; esta guía lo guiará a una instalación mínima que funcionará mientras recorre la introducción.
 
-**Instalar Python **
+**Instalar Python**
+
 Al ser un marco web de Python, Django requiere Python. Consulte ¿Qué versión de Python puedo usar con Django? para detalles. Python incluye una base de datos liviana llamada SQLite, por lo que no necesitará configurar una base de datos todavía.
 Obtenga la última versión de Python en https://www.python.org/downloads/ o con el administrador de paquetes de su sistema operativo.
 Puede verificar que Python esté instalado escribiendo Python desde su shell; deberías ver algo como:
@@ -118,10 +127,12 @@ Python 3.x.y
 [GCC 4.x] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 
-**Configurar una base de datos **
+**Configurar una base de datos**
+
 Este paso solo es necesario si desea trabajar con un motor de base de datos "grande" como PostgreSQL, MariaDB, MySQL u Oracle. Para instalar dicha base de datos, consulte la información de instalación de la base de datos .
 
-**Instalar Django **
+**Instalar Django**
+
 Tienes tres opciones para instalar Django:
 •	Instale una versión oficial . Este es el mejor enfoque para la mayoría de los usuarios.
 •	Instale una versión de Django proporcionada por la distribución de su sistema operativo .
@@ -131,7 +142,7 @@ Para verificar que Python puede ver Django, escriba pythondesde su shell. Luego,
 
 >>> importar django
 >>> imprimir (django.get_version ())
-3.1
+>>>3.1
 
 ![](https://codingornot.com/wp-content/uploads/2017/10/dijango-porque-usarlo.png)
 
@@ -140,6 +151,7 @@ Para verificar que Python puede ver Django, escriba pythondesde su shell. Luego,
 
 <a name= "item8"></a>
 ## Ventajas del patrón MVC
+
 •	La implementación se realiza de forma modular.
 
 •	Sus vistas muestran información actualizada siempre. El programador no debe preocuparse de solicitar que las vistas se actualicen, ya que este proceso es realizado automáticamente por el modelo de la aplicación.
@@ -153,8 +165,10 @@ Para verificar que Python puede ver Django, escriba pythondesde su shell. Luego,
 ------------
 <a name= "item9"></a>
 ## Resultados
+
 <a name= "item10"></a>
 ###### Otros modelos/frameworks de patrones de diseño
+
 <a name= "item11"></a>
 **Patrón Observer**
 
@@ -257,7 +271,7 @@ Hay 4 actores diferenciados en este patrón:
 
 **Contexto** Es la clase que alberga la información necesaria para ejecutar las estrategias y también la clase que hace uso de ellas. Al contexto debemos de informarle de la estrategia a utilizar mediante un setter u otro mecanismo.
 
-**Interfaz de la estrategia **Es el contrato que debe de cumplir cada estrategia que queramos implementar. Este contrato permite al contexto conocer y estandarizar el uso de las estrategias, no teniendo que conocer la implementación final de cada una para tener que ejecutarlas.
+**Interfaz de la estrategia** Es el contrato que debe de cumplir cada estrategia que queramos implementar. Este contrato permite al contexto conocer y estandarizar el uso de las estrategias, no teniendo que conocer la implementación final de cada una para tener que ejecutarlas.
 
 Hay una forma alternativa al uso de la Interfaz de la Estrategia, que es simplemente pasarle el contexto a las estrategias concretas. En ese caso obviamente no sería necesario definir una interfaz.
 
