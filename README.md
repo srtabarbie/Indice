@@ -89,7 +89,9 @@ Go to http://localhost:3000 and you'll see: “Yay! You're on Rails!”
 
 <a name= "item7"></a>
 •	[Django](https://www.djangoproject.com/)
+
 Django es un marco web Python de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático, esta constituido por las siguientes capaz.
+
 **La capa del modelo** Django proporciona una capa de abstracción (los "modelos") para estructurar y manipular los datos de su aplicación web.
 
 **La capa de vista** Django tiene el concepto de "vistas" para encapsular la lógica responsable de procesar la solicitud de un usuario y devolver la respuesta
