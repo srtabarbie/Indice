@@ -90,11 +90,11 @@ Go to http://localhost:3000 and you'll see: “Yay! You're on Rails!”
 <a name= "item7"></a>
 •	[Django](https://www.djangoproject.com/)
 Django es un marco web Python de alto nivel que fomenta un desarrollo rápido y un diseño limpio y pragmático, esta constituido por las siguientes capaz.
-**La capa del modelo ** Django proporciona una capa de abstracción (los "modelos") para estructurar y manipular los datos de su aplicación web.
+**La capa del modelo** Django proporciona una capa de abstracción (los "modelos") para estructurar y manipular los datos de su aplicación web.
 
-**La capa de vista ** Django tiene el concepto de "vistas" para encapsular la lógica responsable de procesar la solicitud de un usuario y devolver la respuesta
+**La capa de vista** Django tiene el concepto de "vistas" para encapsular la lógica responsable de procesar la solicitud de un usuario y devolver la respuesta
 
-** La capa de plantilla ** Proporciona una sintaxis fácil de diseñar para representar la información que se presentará al usuario.
+**La capa de plantilla** Proporciona una sintaxis fácil de diseñar para representar la información que se presentará al usuario.
 
 **Formularios** Django proporciona un marco rico para facilitar la creación de formularios y la manipulación de datos de formularios.
 
@@ -102,10 +102,10 @@ La seguridad es un tema de suma importancia en el desarrollo de aplicaciones web
 Rendimiento y optimización 
 Existe una variedad de técnicas y herramientas que pueden ayudarlo a que su código se ejecute de manera más eficiente, más rápido y con menos recursos del sistema.
 
-**Guía de instalación rápida **
+**Guía de instalación rápida**
 Antes de que pueda usar Django, deberá instalarlo. Contamos con una completa guía de instalación que cubre todas las posibilidades; esta guía lo guiará a una instalación mínima que funcionará mientras recorre la introducción.
 
-**Instalar Python **
+**Instalar Python**
 Al ser un marco web de Python, Django requiere Python. Consulte ¿Qué versión de Python puedo usar con Django? para detalles. Python incluye una base de datos liviana llamada SQLite, por lo que no necesitará configurar una base de datos todavía.
 Obtenga la última versión de Python en https://www.python.org/downloads/ o con el administrador de paquetes de su sistema operativo.
 Puede verificar que Python esté instalado escribiendo Python desde su shell; deberías ver algo como:
@@ -113,10 +113,10 @@ Python 3.x.y
 [GCC 4.x] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 
-**Configurar una base de datos **
+**Configurar una base de datos**
 Este paso solo es necesario si desea trabajar con un motor de base de datos "grande" como PostgreSQL, MariaDB, MySQL u Oracle. Para instalar dicha base de datos, consulte la información de instalación de la base de datos .
 
-**Instalar Django **
+**Instalar Django**
 Tienes tres opciones para instalar Django:
 •	Instale una versión oficial . Este es el mejor enfoque para la mayoría de los usuarios.
 •	Instale una versión de Django proporcionada por la distribución de su sistema operativo .
@@ -250,7 +250,7 @@ Hay 4 actores diferenciados en este patrón:
 
 **Contexto** Es la clase que alberga la información necesaria para ejecutar las estrategias y también la clase que hace uso de ellas. Al contexto debemos de informarle de la estrategia a utilizar mediante un setter u otro mecanismo.
 
-**Interfaz de la estrategia **Es el contrato que debe de cumplir cada estrategia que queramos implementar. Este contrato permite al contexto conocer y estandarizar el uso de las estrategias, no teniendo que conocer la implementación final de cada una para tener que ejecutarlas.
+**Interfaz de la estrategia** Es el contrato que debe de cumplir cada estrategia que queramos implementar. Este contrato permite al contexto conocer y estandarizar el uso de las estrategias, no teniendo que conocer la implementación final de cada una para tener que ejecutarlas.
 
 Hay una forma alternativa al uso de la Interfaz de la Estrategia, que es simplemente pasarle el contexto a las estrategias concretas. En ese caso obviamente no sería necesario definir una interfaz.
 
