@@ -1,13 +1,23 @@
 1.[Introducción](#item1)
+
 2.[GET](#item2)
+
 3.[HEAD](#item3)
+
 4.[POST](#item4)
+
 5.[PATCH](#item5)
+
 6.[PUT](#item6)
+
 7.[DELETE](#item7)
+
 8.[OPTIONS](#item8)
+
 9.[Encabezados HTTP](#item9)
+
 10.[Ejemplos de Errores](#item10)
+
 11.[Tipos de mensajes de las peticiones HTTPs ](#item11)
 
 
@@ -675,7 +685,7 @@ I want to use the same kind of algorithm to determine the change in my data.
 
 - Errores del intervalo 400-499
 
-**Error 401 (Unauthorized):**
+**Error 401 (Unauthorized).**
 Informa que el recurso solicitado necesita autenticación.La cabecera de la respuesta es del tipo www-Authenticate para que se pueda iniciar el proceso.
 
  want get picture of internet and insert into word .
@@ -707,7 +717,7 @@ Something else?
 What I've read on each so far isn't very clear on the difference between the two. What use cases are appropriate for each response?
 
 
-**Error 404 (Not Found). **
+**Error 404 (Not Found).**
 Se puede clasificar como el error más común de todos, e informa que el servidor no puede encontrar el recurso y no puede especificar si esta ausencia será de manera permanente o temporal.
 
 I just transfered my magento installation from one local machine server to another. Now, I cannot login to admin panel. When I go to the admin login url, I get the following error message:-
@@ -797,7 +807,7 @@ Raw data:
 
 - Errores en el intervalo 500-599
 
-**Error 506 (Variant Also Negotiates). **
+**Error 506 (Variant Also Negotiates).**
 Informa de la detección de un error de configuración interna por parte del servidor al procesar la parte de la negociación del contenido de la petición realizada por el navegador.
 
 **Error 507 (Insufficient Storage (WebDAV)).**
