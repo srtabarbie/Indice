@@ -16,7 +16,7 @@
 
 9.[Encabezados HTTP](#item9)
 
-10.[Ejemplos de Errores](#item10)
+10.[Ejemplos de principales Headers](#item10)
 
 11.[Tipos de mensajes de las peticiones HTTPs ](#item11)
 
