@@ -1,24 +1,14 @@
-1.[Introducción](#item1)
-
-2.[GET](#item2)
-
-3.[HEAD](#item3)
-
-4.[POST](#item4)
-
-5.[PATCH](#item5)
-
-6.[PUT](#item6)
-
-7.[DELETE](#item7)
-
-8.[OPTIONS](#item8)
-
-9.[Encabezados HTTP](#item9)
-
-10.[Ejemplos de principales Headers](#item10)
-
-11.[Tipos de mensajes de las peticiones HTTPs ](#item11)
+1. [Introducción](#item1)
+2. [GET](#item2)
+3. [HEAD](#item3)
+4. [POST](#item4)
+5. [PATCH](#item5)
+6. [PUT](#item6)
+7. [DELETE](#item7)
+8. [OPTIONS](#item8)
+9. [Encabezados HTTP](#item9)
+10. [Ejemplos de principales Headers](#item10)
+11. [Tipos de mensajes de las peticiones HTTPs ](#item11)
 
 
 
